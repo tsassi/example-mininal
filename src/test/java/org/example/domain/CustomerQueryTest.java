@@ -9,10 +9,10 @@ public class CustomerQueryTest {
   @Test
   public void findAll() {
 
-    Ebean.find(Customer.class)
-        .findList();
+    Ebean.find(Customer.class).findList();
 
-    new QCustomer()
+    List<Customer> lista 
+      = new QCustomer()
       .id.greaterOrEqualTo(1L)
       .findList();
   }
