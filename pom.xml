@@ -48,6 +48,12 @@
 		</dependency>
 
 		<dependency>
+			<groupId>io.ebean</groupId>
+			<artifactId>ebean-dbmigration</artifactId>
+			<version>10.1.11</version>
+		</dependency>
+
+		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 			<version>1.2.3</version>
@@ -75,10 +81,30 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.avaje.ebean</groupId>
+			<artifactId>ebean</artifactId>
+			<version>9.5.1</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
 			<groupId>org.avaje.ebeanorm</groupId>
 			<artifactId>avaje-ebeanorm</artifactId>
 			<version>8.1.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.avaje.ebeanorm</groupId>
+			<artifactId>avaje-ebeanorm-typequery-generator</artifactId>
+			<version>1.5.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.ebean</groupId>
+			<artifactId>ebean-querybean</artifactId>
+			<version>11.4.1</version>
+		</dependency>
+
 
 	</dependencies>
 

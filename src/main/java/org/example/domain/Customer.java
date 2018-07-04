@@ -1,11 +1,14 @@
 package org.example.domain;
 
+import org.example.domain.finder.CustomerFinder;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Version;
 
 @Entity
 public class Customer {
+
+  public static final CustomerFinder find = new CustomerFinder();
 
   @Id
   Long id;
