@@ -52,6 +52,13 @@
 			<artifactId>ebean-dbmigration</artifactId>
 			<version>10.1.11</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>io.ebean</groupId>
+			<artifactId>ebean-querybean</artifactId>
+			<version>11.4.1</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
@@ -99,17 +106,7 @@
 			<version>1.5.2</version>
 		</dependency>
 
-		<dependency>
-			<groupId>io.ebean</groupId>
-			<artifactId>ebean-querybean</artifactId>
-			<version>11.4.1</version>
-		</dependency>
-
-		<dependency>
-			<groupId>io.ebean.tile</groupId>
-			<artifactId>enhancement</artifactId>
-			<version>5.6</version>
-		</dependency>
+		
 
 
 	</dependencies>

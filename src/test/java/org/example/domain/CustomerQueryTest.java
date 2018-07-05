@@ -1,8 +1,12 @@
 package org.example.domain;
 
-import io.ebean.Ebean;
+import java.util.List;
+
 import org.example.domain.query.QCustomer;
 import org.testng.annotations.Test;
+
+import io.ebean.Ebean;
+
 
 public class CustomerQueryTest {
 
